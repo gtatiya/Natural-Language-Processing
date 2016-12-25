@@ -156,7 +156,7 @@ months.add_trasition("0", 0, 1)
 months.add_trasition("1", 0, 2)
 months.add_trasition_List(list1, 1, 3)
 months.add_trasition_List(["0", "1", "2"], 2, 3)
-months.add_trasition('eps', 0, 1)  # new !!
+months.add_trasition('eps', 0, 1)
 
 """ Build ND-FSA for Days """
 days = FSA(4)
@@ -167,7 +167,7 @@ days.add_trasition("3", 0, 3)
 days.add_trasition_List(list1, 1, 4)
 days.add_trasition_List(list2, 2, 4)
 days.add_trasition_List(["0", "1"], 3, 4)
-days.add_trasition('eps', 0, 1)  # new !!
+days.add_trasition('eps', 0, 1)
 
 """ Build FSA for Years """
 years = FSA(5)
