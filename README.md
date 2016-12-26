@@ -1,6 +1,14 @@
 # Natural Language Processing Projects:
 
-## Statistical parsing
+## Context Sensitive Spelling Corrector
+- Text Pre-processing
+- Most Common Confusing Word as Baseline
+- Context Word Method
+- Collocations Method: Bigram Hidden Markov Model
+- Viterbi Algorithm
+- Accuracy
+
+## Statistical Parsing
 - Text Pre-processing
 - Learn a PCFG using the induce_pcfg
 - Probabilistic CKY Algorithm

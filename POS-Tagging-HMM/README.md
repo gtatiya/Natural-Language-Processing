@@ -1,4 +1,9 @@
 # Part of Speech Tagging with Hidden Markov model
+- Text Pre-processing
+- Most Common Class Algorithm as Baseline
+- Transition and Emission (Observation likelihood) probability matrix
+- Viterbi Algorithm
+- Accuracy and Ambiguity
 
 In this project, I implemented POS Tagging with Hidden Markov models using the Treebank corpora. The Treebank corpora is a 3914 sentences data set in nltk package in Python that provide a syntactic parse for each sentence. 
 I have trained my model using the first 3K sentences of the corpus, treebank.tagged_sents[:3000]. I calculated Transition probability matrix A and Observation likelihood (emission probability) matrix B to train my model. 

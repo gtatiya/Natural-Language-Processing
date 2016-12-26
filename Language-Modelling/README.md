@@ -1,4 +1,11 @@
 # Language Modelling
+- Text Pre-processing
+- Unigram and Bigram counts
+- Maximum Likelihood Estimate
+- Laplace Smoothing
+- Simple Linear Interpolation
+- Deleted Interpolation Algorithm
+- Perplexity
 
 In this project, I have built a bigram language model for the Brown corpus. Brown corpus is a 57K-sentence data set in nltk package in Python.
 In have trained my model using the first 50K sentences of the corpus, brown.sents()[:50000]. I calculated bigrams probability using Maximum Likelihood Estimate, Laplace smoothing and Simple linear interpolation with weights of (0.5, 0.5), and calculated the perplexity for each on the test set. Perplexity is the most common intrinsic evaluation metric in language modelling. The better model is the one that assigns the test data a higher probability. So, lower perplexity represents the better language model.
